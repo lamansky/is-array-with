@@ -1,0 +1,36 @@
+{
+  "name": "is-array-with",
+  "version": "1.0.0",
+  "description": "Checks if a value is an array containing exactly the specified elements.",
+  "keywords": [
+    "array",
+    "value",
+    "check",
+    "test"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/is-array-with",
+  "repository": "lamansky/is-array-with",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "sbo": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
